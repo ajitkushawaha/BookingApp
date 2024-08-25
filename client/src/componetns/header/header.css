@@ -1,0 +1,132 @@
+.header{
+    background-color: teal;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.headerContainer{
+    width: 100%;
+    padding: 0 3rem;
+    min-width: 1024px;
+    margin: 20px 0px 100px 0px
+}
+.headerContainer.listMode{
+    margin: 20px 0px 50px 0px
+}
+.headerList{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 3rem;
+}
+.headerList span{
+    padding: .2rem;
+}
+.active{
+    border: 1px solid white;
+    padding: .5rem .7rem;
+}
+.active:hover{
+  background:#016868;
+}
+
+.headerBtn{
+    font-weight: 600;
+    padding: .5rem .5rem;
+    border: 2px solid white;
+    border-radius: 1px;
+}
+.headerBtn:hover{
+    color: white;
+    background: teal;
+}
+.headerSearch{
+    background: white;
+    color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: .3rem 0;
+    border: 2px solid yellowgreen;
+    border-radius: .5rem;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    height: 30px;
+    width: 100%;
+}
+.headerSarchItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color:gray;
+    cursor: pointer;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+    color: lightgray;
+}
+.headerSearchBtn{
+    padding: .4rem 1.5rem ;
+    background: teal;
+    border: 2px solid teal;
+    color: aliceblue;
+}
+.headerSearchBtn:hover{
+    color: teal;
+    background: white;
+}
+.date{
+   position: absolute;
+   top: 2.8rem;
+   left: 30%;
+   z-index: 2;
+}
+
+.options{
+   position: absolute;
+   top: 50px;
+   background: white;
+   width:12rem;
+   z-index: 2;
+   box-shadow: 0 .2rem .3rem rgba(0, 0, 0, 0.2);
+   border-radius: .2rem;
+   cursor: pointer;
+
+}
+.optionItems{
+    margin-bottom: .8rem;
+    padding: .4rem .9rem;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: 400;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: .5rem;
+    color: #333;
+}
+.optionsCounterButton{
+    border: 1px solid teal;
+    font-size: 1.2rem;
+    width: 30px;
+    cursor: pointer;
+    color: #016868;
+} 
+.optionsCounterButton:hover{
+    background: teal;
+    color: white;
+} 
+.optionsCounterButton:active{
+    scale: 1.1;
+    box-shadow: 0 .2rem .3rem rgba(0, 0, 0, 0.2);
+} 
+.optionsCounterButton:disabled{
+    cursor: not-allowed;
+} 

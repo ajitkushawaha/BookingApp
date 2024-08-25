@@ -1,0 +1,42 @@
+
+
+.navContainer{
+    background-color: teal;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 2rem;
+
+}
+.logo{
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    background-image: linear-gradient(to right, WHITE, #F7F7F7);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: .2s;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode',
+      Geneva, Verdana, sans-serif;
+}
+.logo:hover{
+    transform: rotate(2deg) scale(1.1);
+    cursor: pointer;
+}
+.navButton{
+    margin: 1rem;
+    outline: none;
+    color: #444;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, 0.5);
+    border: 2px solid aliceblue;
+}
+.navButton:hover{
+    background: teal;
+    color: white;
+}

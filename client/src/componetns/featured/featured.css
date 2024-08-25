@@ -1,0 +1,39 @@
+.featured {
+  width: 100%;
+  max-width: 12050px;
+  display: flex;
+  justify-content: center;
+  gap:30px;
+  z-index: 1;
+
+}
+.featuredImage {
+  width: 100%;
+  object-fit: cover;
+}
+.featuredItem{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    color: #fff;
+}
+
+.featuredTitles{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;  
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,0.01);
+}
+.featuredTitles a{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+}
+.featuredTitles span{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+}

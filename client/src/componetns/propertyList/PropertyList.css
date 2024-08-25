@@ -1,0 +1,40 @@
+.propertyList {
+  width: 100%;
+  max-width: 1250px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.pListImage {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.pListItem {
+  flex: 1;
+  border-radius: 5px;
+  overflow: hidden;
+  /* height: 250px; */
+  border: 1px solid #0000001a;
+  color: #000000cc;
+  cursor: pointer;
+
+}
+
+.pListTitles{
+  padding: .5rem .5rem;
+  display: flex;
+  flex-direction: column;
+}
+.pListTitles a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  padding: 3px 0;
+  font-weight: 500;
+}
+.pListTitles span {
+  font-size: 14px;
+  margin: 0!important;
+}

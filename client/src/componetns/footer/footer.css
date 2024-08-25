@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    background: teal;
+    padding: 50px;
+    box-shadow: .5px 5px 10px rgba(0,0,0, 0.4);
+
+}
+.flists{
+    display: flex;
+    justify-content: space-between;
+}
+.flist{
+    list-style: none;
+    
+}
+.flist li{
+ color:white;
+ text-transform: capitalize;
+}
+.fcopy{
+    font-size: .7rem;
+    margin-bottom:1rem;
+}
